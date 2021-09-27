@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch,Route } from 'react-router'
-import Home from '../pages/home.js'
+import Landing from '../pages/landing.js'
 
 const router = () => {
     return (
@@ -9,7 +9,7 @@ const router = () => {
             <Route 
             exact path='/'
             component={props=>
-                < Home {...props} />}
+                < Landing {...props} />}
             />  
         </Switch>
     </div>
